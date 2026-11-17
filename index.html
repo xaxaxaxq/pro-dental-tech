@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pro Dental Tech</title>
+<link rel="icon" href="img/logo.jpg">
+<style>
+  :root { --blue:#0a6ebd; --dark:#0b2a45; --light:#eef6fc; --text:#22313f; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:system-ui, Segoe UI, Arial, sans-serif; color:var(--text); background:#fff; line-height:1.6; }
+  .wrap { max-width:1100px; margin:0 auto; padding:0 16px; }
+  header { position:sticky; top:0; background:#fff; box-shadow:0 2px 8px rgba(0,0,0,.06); z-index:10; }
+  header .wrap { display:flex; align-items:center; justify-content:space-between; height:70px; }
+  .logo { display:flex; align-items:center; gap:10px; text-decoration:none; color:var(--dark); font-weight:800; font-size:1.3rem; }
+  .logo img { width:52px; height:52px; border-radius:50%; }
+  .logo span b { color:var(--blue); }
+  nav a { margin-left:20px; color:var(--dark); text-decoration:none; font-weight:500; }
+  nav a:hover { color:var(--blue); }
+  .hero { background:linear-gradient(135deg,var(--blue),var(--dark)); color:#fff; padding:70px 0; text-align:center; }
+  .hero img { width:150px; height:150px; border-radius:50%; margin-bottom:16px; }
+  .hero h1 { font-size:clamp(2rem,5vw,3rem); margin-bottom:12px; }
+  .hero p { font-size:1.15rem; opacity:.9; margin-bottom:28px; }
+  .btn { display:inline-block; background:#fff; color:var(--blue); padding:14px 30px; border-radius:30px; font-weight:700; text-decoration:none; }
+  section { padding:70px 0; }
+  h2 { text-align:center; font-size:2rem; color:var(--dark); margin-bottom:40px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:24px; }
+  .card { background:var(--light); border-radius:16px; overflow:hidden; }
+  .card img { width:100%; aspect-ratio:1; object-fit:cover; display:block; }
+  .card > div { padding:20px; }
+  .card h3 { color:var(--dark); margin-bottom:6px; }
+  .price { color:var(--blue); font-weight:800; font-size:1.3rem; margin-top:8px; }
+  .perks { max-width:800px; margin:40px auto 0; background:var(--light); border-radius:16px; padding:24px 28px; }
+  .perks li { margin:6px 0 6px 18px; }
+  .contact { background:var(--light); }
+  .contact .grid { text-align:center; }
+  .contact a { color:var(--blue); text-decoration:none; font-weight:700; font-size:1.15rem; display:block; }
+  .map { margin-top:30px; border-radius:16px; overflow:hidden; }
+  .map iframe { width:100%; height:350px; border:0; display:block; }
+  footer { background:var(--dark); color:#cfe3f5; text-align:center; padding:20px 0; }
+  @media (max-width:600px){ nav { display:none; } }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a href="#" class="logo">
+      <img src="img/logo.jpg" alt="Pro Dental Tech logotipi">
+      <span>Pro Dental <b>Tech</b></span>
+    </a>
+    <nav>
+      <a href="#kreslolar">Kreslolar</a>
+      <a href="#aloqa">Aloqa</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <img src="img/logo.jpg" alt="">
+    <h1>Pro Dental Tech</h1>
+    <p>HAGER stomatologik kreslolari — to'liq komplekt, 2 yil kafolat</p>
+    <a class="btn" href="tel:+998946885606">📞 +998 94 688 56 06</a>
+  </div>
+</div>
+
+<section id="kreslolar">
+  <div class="wrap">
+    <h2>Stomatologik kreslolar</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="img/g1.jpg" alt="HAGER G1 stomatologik kreslo">
+        <div>
+          <h3>HAGER G1</h3>
+          <p>Zamonaviy model. To'liq komplekt bilan. Kafolat: 2 yil.</p>
+          <div class="price">2 900 $</div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/g3.jpg" alt="HAGER G3 stomatologik kreslo">
+        <div>
+          <h3>HAGER G3</h3>
+          <p>Qora premium dizayn. To'liq komplekt bilan. Kafolat: 2 yil.</p>
+          <div class="price">2 700 $</div>
+        </div>
+      </div>
+    </div>
+    <ul class="perks">
+      <li><b>Komplekt:</b> NSK burchakli nakonechnik, NSK to'g'ri nakonechnik, turbinali nakonechnik, Woodpecker yorug'lik chirog'i, Woodpecker skaler, pedal, keramik tupurgich, 32 L havo kompressori, shifokor stuli</li>
+      <li>🛠 2 yil bepul servis, usta 1 ish kunida keladi</li>
+      <li>🎁 Kreslo bilan start paket sovg'a</li>
+      <li>🚚 Butun O'zbekiston bo'ylab bepul yetkazish va o'rnatish</li>
+    </ul>
+  </div>
+</section>
+
+<section id="aloqa" class="contact">
+  <div class="wrap">
+    <h2>Aloqa</h2>
+    <div class="grid">
+      <div><p>Telefon</p>
+        <a href="tel:+998946885606">+998 94 688 56 06</a>
+        <a href="tel:+998999935106">+998 99 993 51 06</a>
+      </div>
+      <div><p>Manzil</p><b>Toshkent, Yunusobod 17-kvartal<br>(M Cosmetics yonida)</b></div>
+      <div><p>Instagram</p><a href="https://instagram.com/pro_dental_tech" target="_blank" rel="noopener">@pro_dental_tech</a></div>
+    </div>
+    <div class="map">
+      <iframe src="https://www.google.com/maps?q=Toshkent+Yunusobod+17-kvartal+M+Cosmetics&output=embed" loading="lazy" title="Xarita"></iframe>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Pro Dental Tech. Barcha huquqlar himoyalangan.</footer>
+
+</body>
+</html>
